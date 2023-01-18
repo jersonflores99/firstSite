@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jersonflores99</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Sobre mi</a>
+                </li>
+                <li>
+                    <a href="Proyectos.html">Proyectos</a>
+                </li>
+                <li>
+                    <a href="Contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    
+        <header>
+            <div class="center">
+                <img src="J.jpg" alt="jersonflores99" class="foto">
+            </div>
+            <h1>
+                jersonflores99
+            </h1>
+            <h2>
+                Desarrollador Web
+            </h2>
+        </header>
+    
+        <main>
+            <section>
+                <h3>
+                    Sobre mi
+                </h3>
+                <button>Toggle</button>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias deleniti sequi accusamus porro at! Animi qui doloremque perspiciatis, aliquid quisquam sit quibusdam facilis dignissimos? Ipsa recusandae ex odio, exercitationem dicta similique illo, dolorem molestias, cum ipsum adipisci corrupti. Quas tenetur, dignissimos quis eveniet recusandae porro voluptatibus nemo illo eos, hic magnam tempore eum. Nesciunt expedita, possimus autem iure inventore atque minus labore, neque quasi necessitatibus adipisci aut blanditiis molestiae quisquam quis culpa nobis, assumenda voluptas repellat? Earum harum quidem sed obcaecati sunt ipsam cumque dignissimos pariatur maxime voluptate provident illum sequi animi veritatis nobis consequuntur neque ad, atque in nostrum? Sequi exercitationem distinctio laudantium provident doloribus modi esse autem expedita magni eaque consequuntur dolores temporibus rerum maxime veniam molestias voluptates molestiae at, sed ullam facere nobis? Dicta nam tempore labore modi blanditiis ullam velit. Ab, fuga doloribus excepturi recusandae nam rem eaque voluptate, delectus beatae laudantium ducimus illo doloremque, sequi deleniti? Ut laudantium aspernatur alias adipisci porro fuga suscipit rerum quaerat deleniti unde veniam molestiae minus, eum excepturi saepe vitae. Consectetur eligendi ab labore neque reiciendis, quae, corporis minima harum aut dolore nam eum incidunt distinctio dicta praesentium fuga minus unde hic ipsum soluta tenetur illum? Et sequi accusamus quas!
+                </p>
+            </section>
+        </main>
+    
+    </div>
+    
+    <script>
+        $(".foto").mouseenter(function(){
+            $(".foto").css("border-color", "red")
+        });
+        $(".foto").mouseleave(function(){
+            $(".foto").css("border-color", "blue")
+        });
+
+        $("button").click(function(){
+            $("p").toggle()
+        });
+    </script>
+    
+    
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jersonflores99</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Sobre mi</a>
+                </li>
+                <li>
+                    <a href="Proyectos.html">Proyectos</a>
+                </li>
+                <li>
+                    <a href="Contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    
+        <header>
+            <div class="center">
+                <img src="J.jpg" alt="jersonflores99" class="foto">
+            </div>
+            <h1>
+                jersonflores99
+            </h1>
+            <h2>
+                Desarrollador Web
+            </h2>
+        </header>
+    
+        <main>
+            <section>
+                <h3>
+                    Contacto
+                </h3>
+            </section>
+        </main>
+    
+        <footer>
+            <a href="https://twitter.com/jersonflores99" target="_blank" rel="noopener noreferrer">
+                <img src="https://www.svgrepo.com/show/362166/social-twitter.svg" alt="">
+                <p>
+                    Twitter
+                </p>
+            </a>
+            <a href="https://www.instagram.com/jersonflores99/" target="_blank" rel="noopener noreferrer">
+                <img src="https://www.svgrepo.com/show/452229/instagram-1.svg" alt="">
+                <p>
+                    Instagram
+                </p>
+            </a>
+            <a href="https://medium.com/@jersonflores99" target="_blank" rel="noopener noreferrer">
+                <img src="https://www.svgrepo.com/show/473713/medium.svg" alt="">
+                <p>
+                    Medium
+                </p>
+            </a>
+    
+        </footer>
+    </div>
+    
+    <script>
+        $(".foto").mouseenter(function(){
+            $(".foto").css("border-color", "red")
+        });
+        $(".foto").mouseleave(function(){
+            $(".foto").css("border-color", "blue")
+        });
+    </script>
+    
+</body>
+</html>
